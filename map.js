@@ -95,6 +95,7 @@ oms.addListener('spiderfy', function(markers) {
 document.querySelectorAll('.dateinput')
 .forEach(function(element){
         element.addEventListener('change', function(event){
+            map.removeLayer(markers)
             let d1=document.getElementById("date1").value;
             let d2=document.getElementById("date2").value;
             let response=handleFetch(d1,d2);

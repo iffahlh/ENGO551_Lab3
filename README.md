@@ -1,5 +1,5 @@
 # ENGO551_Lab3
-This website allows users to query building permits in Calgary by date of issue (or ranges for dates of issue) via the Open Calgary API. Locations of queried building permits are then visualized on an interactive map. The video demo for this project can be found [here]()
+This website allows users to query building permits in Calgary by date of issue (or ranges for dates of issue) via the Open Calgary API. Locations of queried building permits are then visualized on an interactive map. The video demo for this project can be found [here](https://youtu.be/deJGjudSZK4)
 
 This website was built with HTML and Javascript. The following libraries and plugins were used in development:
 - **[Leaflet.js](https://github.com/Leaflet/Leaflet)** for creating the interactive map
@@ -9,4 +9,5 @@ This website was built with HTML and Javascript. The following libraries and plu
 
 ## Project Files
 **map.html** - HTML file defining the layout of the site and facilitates the user inputs for date range
+
 **map.js** - Javascript file providing the map and api functionality of this website, using the HTML input dates 
